@@ -5,6 +5,7 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 import time
 from fpdf import FPDF
+import os
 
 # API 1: Jogja Dataset
 jogja_url = "https://dataset.jogjakota.go.id/api/3/action/datastore_search"
@@ -48,8 +49,10 @@ def reverse_geocode(latitude, longitude, retries=3):
     
     return "Address not found"
 
+RESULT_FOLDER = "../result"
+os.makedirs(RESULT_FOLDER, exist_ok=True)
+
 try:
-    # Scrape from Jogja Dataset
     print("Fetching data from Jogja Dataset...")
     response1 = requests.get(jogja_url, params=jogja_params, timeout=30)
     response1.raise_for_status()
@@ -61,7 +64,7 @@ try:
         df1 = pd.DataFrame(records1)
         print(f"Jogja data retrieved successfully! Got {len(df1)} records")
         print(df1.head())
-        df1.to_csv("jogja_data.csv", index=False)
+        df1.to_csv(f"{RESULT_FOLDER}/jogja_data.csv", index=False)
         print("Saved to jogja_data.csv\n")
     else:
         print("Jogja API request failed:", data1.get("error"))
@@ -78,8 +81,8 @@ try:
         df2 = pd.DataFrame(records2)
         print(f"PeeringDB data retrieved successfully! Got {len(df2)} records")
         print(df2.head())
-        df2.to_csv("peeringdb_yogyakarta.csv", index=False)
-        print("Saved to peeringdb_yogyakarta.csv")
+        df2.to_csv(f"{RESULT_FOLDER}/peeringdb_yogyakarta.csv", index=False)
+        print("Saved to peeringdb_yogyakarta.csv\n")
     else:
         print("PeeringDB API response format unexpected")
         
@@ -95,7 +98,7 @@ try:
         df3 = pd.DataFrame(records3)
         print(f"BTS data retrieved successfully! Got {len(df3)} records")
         print(df3.head())
-        df3.to_csv("bts_data.csv", index=False)
+        df3.to_csv(f"{RESULT_FOLDER}/bts_data.csv", index=False)
         print("Saved to bts_data.csv\n")
     else:
         print("BTS API request failed:", data3.get("error"))
@@ -112,11 +115,13 @@ try:
         records4 = data4["result"]["records"]
         df4 = pd.DataFrame(records4)
         print(f"Hotspot data retrieved successfully! Got {len(df4)} records")
-        
-        # Convert coordinates to addresses
-    
+        df4['description'] = df4.apply(
+            lambda row: reverse_geocode(row['latitude'], row['longitude']),
+            axis=1
+        )
         print(df4.head())
-        df4.to_csv("hotspot_data.csv", index=False)
+        df4.to_csv(f"{RESULT_FOLDER}/hotspot_data.csv", index=False)
+        print("Saved to hotspot_data.csv\n")
     else:
         print("Hotspot API request failed:", data4.get("error"))
         
@@ -127,22 +132,22 @@ except json.JSONDecodeError as e:
 except Exception as e:
     print(f"An error occurred: {e}")
 
-# Convert CSV files to PDF
 def csv_to_pdf(csv_file, pdf_file):
     """Convert CSV to PDF with Unicode support"""
     df = pd.read_csv(csv_file)
     
-    cols_to_remove = ['_id', 'description' ,'iconsrc', 'kategori']
+    cols_to_remove = ['_id', 'description', 'iconsrc', 'kategori']
     df = df.drop(columns=[col for col in cols_to_remove if col in df.columns])
     
-    # Replace NaN/empty values with '-'
     df = df.fillna('-')
 
     pdf = FPDF(orientation='L')  
     pdf.add_page()
 
-    pdf.add_font("DejaVu", style="", fname="DejaVuSans.ttf")
-    pdf.add_font("DejaVu", style="B", fname="DejaVuSans-Bold.ttf")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    FONT_FOLDER = os.path.join(BASE_DIR, "../font")  
+    pdf.add_font("DejaVu", style="", fname=os.path.join(FONT_FOLDER, "DejaVuSans.ttf"))
+    pdf.add_font("DejaVu", style="B", fname=os.path.join(FONT_FOLDER, "DejaVuSans-Bold.ttf"))
 
     pdf.set_font("DejaVu", style="B", size=10)
     pdf.cell(0, 10, f"Data from {csv_file}", new_x="LMARGIN", new_y="NEXT", align='C')
@@ -184,5 +189,5 @@ def csv_to_pdf(csv_file, pdf_file):
     pdf.output(pdf_file)
     print(f"Saved to {pdf_file}")
 
-csv_to_pdf("hotspot_data.csv", "hotspot_data.pdf")
-csv_to_pdf("bts_data.csv", "bts_data.pdf")
+csv_to_pdf(f"{RESULT_FOLDER}/hotspot_data.csv", f"{RESULT_FOLDER}/hotspot_data.pdf")
+csv_to_pdf(f"{RESULT_FOLDER}/bts_data.csv", f"{RESULT_FOLDER}/bts_data.pdf")
