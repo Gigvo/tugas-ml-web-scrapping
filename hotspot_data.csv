@@ -1,0 +1,101 @@
+_id,id,title,description,kecamatan,kelurahan,longitude,latitude,iconsrc,kategori
+1,1,RTHP MANTRIJERON RW 10,,Mantrijeron,Mantrijeron,110.3630611,-7.8245528,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+2,2,RTHP PANDEYAN RW 11,,Umbulharjo,Pandeyan,110.3924694,-7.8168194,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+3,3,RTHP PRENGGAN RW04,,Kotagede,Prenggan,110.398222,-7.821248,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+4,4,RTHP KLITREN RW 13,,Gondokusuman,Klitren,110.3865167,-7.7808806,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+5,5,RTHP BACIRO RW08 TAMAN BAKUNG,,Gondokusuman,Baciro,110.381872,-7.792548,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+6,6,RTHP NGUPASAN RW 07,,Gondomanan,Ngupasan,110.3703194,-7.7998,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+7,7,RTHP GEDONGKIWO RW17,,Mantrijeron,Gedongkiwo,110.353239,-7.821849,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+8,8,RTHP SOROSUTAN RW 9,,Umbulharjo,Sorosutan,110.3847528,-7.8228194,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+9,9,RTHP BUMIJO RW09,,Jetis,Bumijo,110.356339,-7.787769,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+10,10,RTHP PANDEYAN RW 02,,Umbulharjo,Pandeyan,110.3818667,-7.8130611,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+11,11,RTHP KADIPATEN RW 07,,Kraton,Kadipaten,110.3611306,-7.8052694,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+12,12,BALAI RW 02 BACIRO,,Gondokusuman,Baciro,110.3783444,-7.7962639,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+13,13,RTHP BACIRO RW018,,Gondokusuman,Baciro,110.391724,-7.789033,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+14,14,RTHP RW09 TEGALREJO,,Tegalrejo,Tegalrejo,110.351748,-7.791225,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+15,15,RTHP TEGALPANGGUNG RW 01,,Danurejan,Tegalpanggung,110.3693556,-7.7915944,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+16,16,BALAI RW 10 GIWANGAN,,Umbulharjo,Giwangan,110.391675,-7.8331306,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+17,17,RTHP PAKUNCEN,,Wirobrajan,Pakuncen,110.3512417,-7.7979694,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+18,18,BALAI RW 15 MANTRIJERON,,Mantrijeron,Mantrijeron,110.3678944,-7.820425,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+19,19,RTHP DEMANGAN RW 10,,Gondokusuman,Demangan,110.3871972,-7.7888139,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+20,20,RTHP PANDEYAN TAMAN LEGAWONG,,Umbulharjo,Pandeyan,110.3937944,-7.8242361,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+21,21,RTHP RW06 TERBAN,,Gondokusuman,Terban,110.372552,-7.782082,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+22,22,BALAI RW 12 PANDEYAN,,Umbulharjo,Pandeyan,110.3840667,-7.8127639,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+23,23,BALAI RW 02 PAKUNCEN,,Wirobrajan,Pakuncen,110.3521139,-7.7938389,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+24,24,RTHP BACIRO RW09 TAMAN KANTIL,,Gondokusuman,Baciro,110.383359,-7.791759,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+25,25,RTHP NOTOPRAJAN RW 06,,Ngampilan,Notoprajan,110.358525,-7.8022417,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+26,26,BALAI RW 18 GEDONGKIWO,,Mantrijeron,Gedongkiwo,110.3525889,-7.8239278,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+27,27,RTHP COKRODININGRATAN RW 08,,Jetis,Cokrodiningratan,110.3701639,-7.7795694,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+28,28,RTHP PRINGGOKUSUMAN,,Gedongtengen,Pringgokusuman,110.3557972,-7.79505,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+29,29,RTHP GUNUNGKETUR RW 04,,Pakualaman,Gunungketur,110.3787056,-7.8004139,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+30,30,RTHP KRICAK RW 01,,Tegalrejo,Kricak,110.3543083,-7.7730194,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+31,31,RTHP SEMAKI RW 07,,Umbulharjo,Semaki,110.3848861,-7.801125,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+32,32,RTHP BRONTOKUSUMAN RW 05,,Mergangsan,Brontokusuman,110.3715833,-7.8181389,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+33,33,RTHP PURBAYAN RW 03,,Kotagede,Purbayan,110.402325,-7.8222833,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+34,34,RTHP REJOWINANGUN RW05,,Kotagede,Rejowinangun,110.400911,-7.808487,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+35,35,POS Ronda RW.07 (Utara kantor Kel. TP),,Danurejan,Tegalpanggung,110.372603,-7.790646,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+36,36,Balai Catur Warga RW.14,,Kraton,Panembahan,110.3668005,-7.8079815,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+37,37,Balai/Gedung Serbaguna Cokrodirjan,,Danurejan,Suryatmajan,110.370166,-7.7959918,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+38,38,BALAI RW 3 n 4 GEMBKALAAN ATAS,,Danurejan,Suryatmajan,110.3675583,-7.7923611,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+39,39,Balai RW.06,,Kotagede,Purbayan,110.40308,-7.82637,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+40,40,Gedung serbaguna gereja baciro,,Gondokusuman,Baciro,110.3895583,-7.7919944,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+41,41,Gedung GKS Widyamandala,,Gondokusuman,Kotabaru,110.3714528,-7.7885944,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+42,42,Balai serbaguna kricak kudul,,Tegalrejo,Kricak,110.3586256,-7.7771191,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+43,43,Balai RW 05,,Ngampilan,Notoprajan,110.3575056,-7.8017611,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+44,44,Balai RW 09,,Kotagede,Prenggan,110.40008,-7.82706,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+45,45,Balai RT 52 RW 12 Badran,,Jetis,Bumijo,110.3584583,-7.7853917,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+46,46,Masjid Al-Hidayah,,Jetis,Cokrodiningratan,110.3684954,-7.7819385,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+47,47,Balai Giri Arum,,Pakualaman,Gunungketur,110.3780472,-7.8002861,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+48,48,balai rw 3,,Kotagede,Prenggan,110.3960868,-7.821739,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+49,49,Balai RW 17,,Gedongtengen,Pringgokusuman,110.3612278,-7.7956917,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+50,50,Balai RW. 07 tim pasko,,Kotagede,Purbayan,110.4015111,-7.8281167,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+51,51,Balai RW 01,,Pakualaman,Purwokinanti,110.3700205,-7.7974503,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+52,52,"Balai RK (Di ganti Balai RW 08 Giwangan, Umbulharjo)",,Umbulharjo,Giwangan,110.3817146,-7.7978315,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+53,53,Balai Pertemuan Warga Sayidan,,Gondomanan,Prawirodirjan,110.3709583,-7.8025639,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+54,54,Balai RW 7 Suryowojayan,,Mantrijeron,Gedongkiwo,110.355234,-7.812351,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+55,55,Posyandu RW 7,,Umbulharjo,Mujamuju,110.3932528,-7.79895,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+56,56,Kantor RW 02 Ngadinegaran,,Mantrijeron,Mantrijeron,110.363936,-7.814463,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+57,57,Balai Kampung Kumendaman,,Mantrijeron,Suryodiningratan,110.361528,-7.815528,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+58,58,balai rw 8,,Umbulharjo,Tahunan,110.3838389,-7.8091972,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+59,59,Balai kampung timuran,,Mergangsan,Brontokusuman,110.3696568,-7.8167909,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+60,60,Balai Kampung Pathuk,,Ngampilan,Ngampilan,110.3614556,-7.7967028,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+61,61,Balai RW 3 Ngupasan,,Gondomanan,Ngupasan,110.3619028,-7.7979694,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+62,62,balai rw 11,,Wirobrajan,Pakuncen,110.354356,-7.799582,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+63,63,BALAI PANCA RW REJOWINANGUN,,Kotagede,Rejowinangun,110.3972638,-7.8085575,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+64,64,masjid baitul karim,,Mergangsan,Brontokusuman,110.3732917,-7.8170806,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+65,65,Balai RW 5,,Umbulharjo,Warungboto,110.3886333,-7.807325,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+66,66,Bale RW.13 Malangan,,Umbulharjo,Giwangan,110.390077,-7.8356405,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+67,67,balai rw 7,,jetis,Gowongan,110.3700528,-7.7836861,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+68,68,Balai Langenastran,,Kraton,Panembahan,110.362875,-7.8134694,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+69,69,Balai RW 1,,Umbulharjo,Sorosutan,110.377515,-7.816623,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+70,70,BALAI RW PAJEKSAN,,Gedongtengen,Sosromenduran,110.364733,-7.794718,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+71,71,Balai Muslimin,,Umbulharjo,Warungboto,110.394043,-7.810827,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+72,72,Balai RW 07,,Wirobrajan,Wirobrajan,110.3533003,-7.8035394,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+73,73,Balai RW 13,,Umbulharjo,Pandeyan,110.3934889,-7.8210639,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+74,74,Balai rw 5,,Wirobrajan,Pakuncen,110.349377,-7.798173,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+75,75,Balai RW 6,,Kraton,Patehan,110.359625,-7.813225,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+76,76,Balai RW 02 Bintaran,,Mergangsan,Wirogunan,110.3721028,-7.8039194,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+77,77,Balai Serbaguna RW 1 Tompeyan,,Tegalrejo,Tegalrejo,110.3549167,-7.7840194,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+78,78,Balai RW 01,,Wirobrajan,wirobrajan,110.3489306,-7.8021503,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+79,79,Balai RW 05,,Umbulharjo,Sorosutan,110.378556,-7.82025,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+80,80,Balai Petinggen,,Tegalrejo,Karangwaru,110.3683,-7.7718111,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+81,81,Masjid Al-Fajar,,Tegalrejo,Karangwaru,110.3651,-7.7713139,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+82,82,Balai RW 09 Iromejan,,Gondokusuman,Klitren,110.3833028,-7.7807944,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+83,83,Balai RT 35 RW 08 Bumijo,,Jetis,Bumijo,110.3596806,-7.7840472,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+84,84,Balai Anjangsih,,Jetis,Cokrodiningratan,110.3694194,-7.7789889,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+85,85,Balai RW,,Ngampilan,Ngampilan,110.358767,-7.795854,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+86,86,Gedung balai rw 13,,Kraton,Kadipaten,110.3600877,-7.8065195,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+87,87,Balai Magersari RW4,,Gondokusuman,Kotabaru,110.371911,-7.788883,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+88,88,Ruang Kumpul Warga RW 02  Patangpuluhan Wirobrajan,,Wirobrajan,Patangpuluhan,110.352047,-7.809708,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+89,89,BALAI RK  BLUNYAHREJO,,Tegalrejo,Karangwaru,110.365528,-7.774306,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+90,90,Aula masjid mustaqim,,Kotagede,Purbayan,110.401611,-7.826417,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+91,91,Wisma Rosari Lt1. Gereja Pugeran,,Mantrijeron,Suryodiningratan,110.356,-7.81625,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+92,92,Balai RW 15,,Gondomanan,Prawirodirjan,110.372,-7.804111,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+93,93,Masjid nurul iman lantai 2 ,,Kotagede,Prenggan,110.393833,-7.814972,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+94,94,Balai RW 11,,Jetis,Cokrodiningratan,110.370277,-7.782545,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+95,95,Pos Ronda RW 7 RT 38,,Wirobrajan,Patangpuluhan,110.350407,-7.810123,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+96,96,Balai RW 20,,Gondokusuman,Baciro,110.394924,-7.790224,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+97,97,Balai Manunggal Karso Gajah Wong,,Gondokusuman,Baciro,110.397322,-7.789287,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+98,98,Balai RW 11 Kauman Ngupasan,,Gondomanan,Ngupasan,110.363502,-7.802177,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+99,99,halaman masjid nurul mubin rw 8,,Mantrijeron,Gedongkiwo,110.352598,-7.813022,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
+100,100,pos ronda rt 67,,Mantrijeron,Gedongkiwo,110.352822,-7.81861,https://peta.jogjakota.go.id/assets/icon_marker/placeholder.png,Tikor WiFi Free Hotspot
