@@ -1,91 +1,25 @@
 import requests
 import pandas as pd
 import json
-from geopy.geocoders import Nominatim
-from geopy.exc import GeocoderTimedOut
-import time
 from fpdf import FPDF
 import os
 
-# API 1: Jogja Dataset
-jogja_url = "https://dataset.jogjakota.go.id/api/3/action/datastore_search"
-jogja_params = {
-    "resource_id": "eaccabe7-6167-4215-8654-787e76f56956",
-}
-
-# API 2: PeeringDB
-peeringdb_url = "https://peeringdb.com/api/ix"
-peeringdb_params = {
-    "country": "ID",
-    "city": "Yogyakarta"
-}
-
-# API 3: Jumlah BTS per Kelurahan di Yogyakarta
+# Jumlah BTS per Kelurahan di Yogyakarta
 bts_url = "https://dataset.jogjakota.go.id/api/3/action/datastore_search"
 bts_params = {
     "resource_id": "d1ca8da3-5603-42d6-ade2-3b2400af02e4"  
 }
 
+# Lokasi Free Hotspot di Yogyakarta
 hotspot_url = "https://dataset.jogjakota.go.id/api/3/action/datastore_search"
 hotspot_params = {
     "resource_id": "dbbcef30-b61e-45f9-acb0-18d21efc5113"
 }
 
-def reverse_geocode(latitude, longitude, retries=3):
-    """Convert coordinates to address using Nominatim"""
-    geolocator = Nominatim(user_agent="hotspot_geocoder")
-    
-    for attempt in range(retries):
-        try:
-            location = geolocator.reverse(f"{latitude}, {longitude}", language='id')
-            return location.address
-        except GeocoderTimedOut:
-            if attempt < retries - 1:
-                time.sleep(1)
-                continue
-            return "Address not found"
-        except Exception as e:
-            return f"Error: {str(e)}"
-    
-    return "Address not found"
-
 RESULT_FOLDER = "../result"
 os.makedirs(RESULT_FOLDER, exist_ok=True)
 
 try:
-    print("Fetching data from Jogja Dataset...")
-    response1 = requests.get(jogja_url, params=jogja_params, timeout=30)
-    response1.raise_for_status()
-    
-    data1 = response1.json()
-    
-    if data1.get("success"):
-        records1 = data1["result"]["records"]
-        df1 = pd.DataFrame(records1)
-        print(f"Jogja data retrieved successfully! Got {len(df1)} records")
-        print(df1.head())
-        df1.to_csv(f"{RESULT_FOLDER}/jogja_data.csv", index=False)
-        print("Saved to jogja_data.csv\n")
-    else:
-        print("Jogja API request failed:", data1.get("error"))
-    
-    # Scrape from PeeringDB
-    print("Fetching data from PeeringDB...")
-    response2 = requests.get(peeringdb_url, params=peeringdb_params, timeout=30)
-    response2.raise_for_status()
-    
-    data2 = response2.json()
-    
-    if "data" in data2:
-        records2 = data2["data"]
-        df2 = pd.DataFrame(records2)
-        print(f"PeeringDB data retrieved successfully! Got {len(df2)} records")
-        print(df2.head())
-        df2.to_csv(f"{RESULT_FOLDER}/peeringdb_yogyakarta.csv", index=False)
-        print("Saved to peeringdb_yogyakarta.csv\n")
-    else:
-        print("PeeringDB API response format unexpected")
-        
     # Scrape from BTS Dataset
     print("Fetching data from BTS Dataset...")
     response3 = requests.get(bts_url, params=bts_params, timeout=30)
@@ -105,7 +39,6 @@ try:
         
     # Scrape from Free Hotspot Dataset
     print("Fetching data from Free Hotspot Dataset...")
-    
     response4 = requests.get(hotspot_url, params=hotspot_params, timeout=30)
     response4.raise_for_status()
     
@@ -115,10 +48,6 @@ try:
         records4 = data4["result"]["records"]
         df4 = pd.DataFrame(records4)
         print(f"Hotspot data retrieved successfully! Got {len(df4)} records")
-        df4['description'] = df4.apply(
-            lambda row: reverse_geocode(row['latitude'], row['longitude']),
-            axis=1
-        )
         print(df4.head())
         df4.to_csv(f"{RESULT_FOLDER}/hotspot_data.csv", index=False)
         print("Saved to hotspot_data.csv\n")
